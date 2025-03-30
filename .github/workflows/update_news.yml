@@ -2,10 +2,8 @@ name: Update F1 News Feed
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # كل 5 دقائق
+    - cron: '*/5 * * * *'  # تشغيل كل 5 دقائق
   workflow_dispatch:
-
-privacy_policy_url: "https://www.example.com/privacy-policy"
 
 jobs:
   build:
